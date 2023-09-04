@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'harry-p';
+					src: url('/wp-content/uploads/useanyfont/8739Harry-P.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8739Harry-P.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.harry-p{font-family: 'harry-p' !important;}
+
+		
