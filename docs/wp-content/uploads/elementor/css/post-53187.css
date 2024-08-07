@@ -63,10 +63,23 @@
 .fondo-amarillo{
 	background-image: url('../../../assets/yellow_bg.jpg');
 	background-position: initial;
-  background-repeat: repeat;
+  	background-repeat: repeat;
 	background-size: 550px;
 }
 
+.fondo-rojo{
+	background-image: url('../../../assets/red_bg.jpg');
+	background-position: initial;
+  	background-repeat: repeat;
+	background-size: 300px;
+}
+
+.fondo-azul{
+	background-image: url('../../../assets/blue_bg.jpg');
+	background-position: initial;
+  	background-repeat: repeat;
+	background-size: 900px;
+}
 .text-shadow{
 	text-shadow: 1px 1px 1px black;
 }
@@ -75,4 +88,15 @@
 }
 .tarjeta-bn{
 	background-image: url('../../../assets/tarjeta_bn.png') !important;
+}
+
+.letrero-cumple-container {
+	display: flex;
+	justify-content: center;	
+}
+
+.letrero-cumple {
+	padding: 25px;
+	color: #000000;
+	font-weight: bolder;
 }
