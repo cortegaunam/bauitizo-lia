@@ -44,12 +44,12 @@
 /*END WODGET WITH TEXT CONTENT AND BACKGROUND*/
 
 /*START confirm form*/
-.asistencia {
+.asistencia, .boton {
   border: 4px solid #0069a7;
   border-radius: 10px;
 }
-.asistencia.confirma{
-	background-color: #ebb012;
+.asistencia.confirma, .boton{
+	background-color: #ebb012 !important;
 }
 .asistencia.niega{
 	background-color: #fb5262;
@@ -122,4 +122,39 @@
 	padding: 25px;
 	color: #000000;
 	font-weight: bolder;
+}
+
+.title-font{
+	font-family: "Bangers", Sans-serif;
+}
+
+.image-background{
+	width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fondo-blancanieves-2{
+	background-image: url(../../../assets/blancanieves_fondo2.jpg);
+	background-position: top center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 0.35;
+}
+.lugar{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.widthout-margin{
+	margin: 0;
+}
+
+.blue-king-background{
+	background-color: #0833a2;
+}
+.boton.ubicacion {
+	color: #000;
+	box-shadow: 0;
 }
