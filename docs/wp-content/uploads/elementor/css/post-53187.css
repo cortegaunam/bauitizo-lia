@@ -31,11 +31,7 @@
 /*END WIDTGET IMG BACKGROUND*/
 
 /*START WODGET WITH TEXT CONTENT AND BACKGROUND*/
-.elementor-53187 .elementor-element.elementor-element-be2c258 > .elementor-element-populated > .elementor-background-overlay {
-	background-image: url("../../../assets/blancanivees_fondo.jpg");
-	background-position: initial;
-  background-repeat: repeat;
-}
+
 .elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-be2c258 * {
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +55,36 @@
 	background-color: #fb5262;
 }
 /*END confirm form*/
+	.fondo-bn-chubby {
+		background-image: url("../../../assets/blancanivees_fondo.jpg") !important;
+		background-position: top center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		opacity: 0.35 !important;
+	}
+
+.tarjeta-bn {
+	height: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 75% !important;
+    background-position: top center !important;
+    background-size: cover !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+    background-repeat: no-repeat !important;
+	background-image: url('../../../assets/tarjeta_bn.png') !important;
+	/*background-position: top center !important;
+  	background-repeat: no-repeat !important;
+  	background-size: 100% 100% !important;*/
+	opacity: 1 !important;
+}
+
+.fondo-tarjeta-bn {
+	position: absolute;
+	top: 0;
+	left: 0	
+}
 
 .fondo-amarillo{
 	background-image: url('../../../assets/yellow_bg.jpg');
@@ -85,9 +111,6 @@
 }
 .without-background{
 	background: none !important;
-}
-.tarjeta-bn{
-	background-image: url('../../../assets/tarjeta_bn.png') !important;
 }
 
 .letrero-cumple-container {
