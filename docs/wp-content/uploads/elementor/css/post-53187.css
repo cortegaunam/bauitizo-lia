@@ -83,7 +83,8 @@
 .fondo-tarjeta-bn {
 	position: absolute;
 	top: 0;
-	left: 0	
+	left: 0;
+	box-shadow: 5px 5px 5px gray !important;
 }
 
 .fondo-amarillo{
