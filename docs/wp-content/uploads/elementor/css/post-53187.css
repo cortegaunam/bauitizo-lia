@@ -291,3 +291,7 @@
   color: white;
   border-radius: 10px 10px;
 }
+p.confirma-asistencia{
+	color: #0069a7;
+	text-shadow: 2px 2px black;
+}
