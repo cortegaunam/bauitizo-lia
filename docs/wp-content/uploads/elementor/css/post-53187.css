@@ -202,19 +202,19 @@
 }
 
 .mensaje-agradecimiento {
-	color: #000000;
-	padding: 0px 10px;
-	border-radius: 30px;
-	background-color: #ebb012 !important;
-	box-shadow: 2px 2px 10px black !important;
-}
-.mensaje-crecido {
-	color: #FFFFFF;
-	text-shadow: 4px 4px #000 !important;
+	color: #fff;
 	padding: 0px 10px;
 	border-radius: 30px;
 	background-color: #0069a7 !important;
-	box-shadow: 2px 2px 10px #facb33 !important;
+	box-shadow: 2px 2px 10px black !important;
+}
+.mensaje-crecido {
+	color: #000;
+	text-shadow: 4px 4px #fff !important;
+	padding: 0px 10px;
+	border-radius: 30px;
+	background-color: #facb33 !important;
+	box-shadow: 2px 2px 10px #0069a7 !important;
 }
 .feliz-mensaje {
 	color: #0e2261;
