@@ -135,25 +135,39 @@
   position: absolute;
   top: 0;
   left: 0;
+	background-position: top center;
+	background-repeat: repeat;
+	background-size:contain;
+	opacity: 0.35;
 }
 
 .fondo-blancanieves-2{
 	background-image: url(../../../assets/blancanieves_fondo2.jpg);
-	background-position: top center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	opacity: 0.35;
+	
 }
-.lugar{
+.fondo-manzanas{
+	background-image: url(../../../assets/apple_pattern.jpg);
+	background-size: 25%;
+}
+
+.seccion{
 	width: 100%;
 	padding-bottom: 50px;
+	position: inherit;
+}
+.flex{
+	display: flex;
 }
 .widthout-margin{
 	margin: 0;
 }
 
 .blue-king-background{
-	background-color: #0833a2;
+	background-color: #1a67cc;
+}
+
+.blue-king-background  .title-font{
+	color: white;
 }
 .boton.ubicacion {
 	color: #000;
@@ -204,7 +218,7 @@
 }
 .feliz-mensaje {
 	color: #0e2261;
-	padding: 0px 10px;
+	padding: 20px 0px;
 	border-radius: 30px;
 	box-shadow: 2px 2px 10px black !important;
 	background-color: #facb33 !important;
@@ -214,4 +228,66 @@
 	.padding-bottom-fix {
 		padding-bottom: 60% !important;
 	}	
+	.fondo-manzanas{
+		background-size: auto;
+	}
+}
+.center-content {
+	justify-content: center;
+}
+.center-align {
+	align-items: center;
+}
+
+.carta{
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+}
+.carta p{
+	width: 100%;
+}
+.carta, .carta .image-background{
+	border-radius: 10px 10px 10px 10px;
+}
+
+.codigo-vestimenta{
+	padding: 0;
+	padding-bottom: 0;
+	text-align: center;
+  color: #000000;
+  font-family: "Architects Daughter", Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+.codigo-vestimenta .color-filer{
+	padding: 50px 10px;
+	background: rgba(102, 9, 26, 0.2);
+}
+.carta.titulo{
+	margin-bottom: 50px;
+}
+.codigo-vestimenta .carta.titulo{
+	background: #990303;
+  color: white;
+  box-shadow: 2px 2px 10px black;
+}
+
+.fiesta,.feliz-mensaje{
+	text-shadow: 1px 1px #000;
+}
+.cuenta-dias-titulo{
+	background-image: url('../../../assets/crown_heart_bg.jpg');
+	background-size: contain;
+}
+.cuenta-dias-titulo > .elementor-container{
+	justify-content: center;
+}
+
+.cuenta-dias-titulo p {
+	background: #1a67cc;
+  color: white;
+  border-radius: 10px 10px;
 }
